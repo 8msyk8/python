@@ -5,6 +5,7 @@
 import csv
 f = open('path/data2.csv', 'ab') #ファイルが無ければ作る、の'a'を指定します
 
+
 csvWriter = csv.writer(f)
 
 
